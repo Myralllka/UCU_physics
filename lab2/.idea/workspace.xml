@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c64c12c5-7110-4fe5-b8a6-71c5623ef640" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1ZqNJ6ca91y6R04N44RROBOBeZ6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../virus_evolution_simulation" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c64c12c5-7110-4fe5-b8a6-71c5623ef640" name="Default Changelist" comment="" />
+      <created>1585562589852</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585562589852</updated>
+      <workItem from="1585562595350" duration="236000" />
+      <workItem from="1585563479141" duration="3765000" />
+      <workItem from="1585734036793" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="692" y="198" width="526" height="595" key="FileChooserDialogImpl" timestamp="1585734060181">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="692" y="198" width="526" height="595" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1585734060181" />
+    <state x="196" y="-30" width="1509" height="1081" key="FileDocumentManager.FileCacheConflict" timestamp="1585563737359">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="196" y="-30" width="1509" height="1081" key="FileDocumentManager.FileCacheConflict/0.0.1920.1080@0.0.1920.1080" timestamp="1585563737359" />
+    <state x="610" y="-7" width="1239" height="906" key="SettingsEditor" timestamp="1585567562297">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="610" y="-7" width="1239" height="906" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1585567562297" />
+  </component>
+</project>
