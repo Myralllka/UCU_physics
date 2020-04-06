@@ -1,5 +1,6 @@
 from math import sqrt
 from typing import Tuple
+
 from vectors import Vector
 
 
@@ -11,10 +12,11 @@ class Cell:
     __t = 1 + sqrt(1 - 4 * (- 1 / 400000)) / 2
     r_max = sigma / (__t * __t * __t * __t * __t * __t)
 
-    def __init__(self, xyz: Tuple[float], sxyz: Tuple[float]):
+    def __init__(self, xyz: Tuple[float, float, float],
+                 sxyz: Tuple[float, float, float]):
         self.coordinates: Vector = Vector(*xyz)
         self.speed: Vector = Vector(*sxyz)
-        self.force: Vector
+        self.force: Vector = Vector(0, 0, 0)
         self.analytic_force: Vector
 
     def __copy__(self):

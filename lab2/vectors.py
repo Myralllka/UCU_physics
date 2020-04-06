@@ -1,4 +1,4 @@
-from math import sqrt
+from numpy import sqrt
 
 
 class Vector:
@@ -11,7 +11,7 @@ class Vector:
         """
         :return: Module(length) of the vector
         """
-        return sqrt(self.x ** 2 + self.y * 2 + self.z ** 2)
+        return sqrt(self.x * self.x + self.y * self.y + self.z * self.z)
 
     def __sub__(self, other):
         return Vector(self.x - other.x, self.y - other.y, self.z - other.z)
@@ -22,7 +22,7 @@ class Vector:
         self.z *= constant
         return self
 
-    def __div__(self, constant):
+    def __truediv__(self, constant):
         return Vector(self.x / constant, self.y / constant, self.z / constant)
 
     def __neg__(self):

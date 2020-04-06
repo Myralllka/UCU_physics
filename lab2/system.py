@@ -1,19 +1,20 @@
 from typing import Set
+
 from atoms import Cell
 from find_forces import find_force, find_velo, find_pos
 from vectors import Vector
 
 
 class System:
-    def __init__(self, cells:Set[Cell], step: float):
+    def __init__(self, cells: Set[Cell], step: float, size: Vector):
         self.cells: Set[Cell] = cells
         self.step = step
-    
+
     def update_coordinates(self, elem: Cell):
         """
         """
         elem.coordinates = find_pos(elem, self.step)
-    
+
     def update_volosity(self, elem: Cell):
         """
         """
@@ -36,7 +37,7 @@ class System:
                 if element1 == element2:
                     continue
                 if element2.distance(element1) <= element2.r_max:
-                    force = find_force(element1, element2) 
+                    force = find_force(element1, element2)
                     element1.force += force
                     element2.force += -force
                     to_delete.add(element2)
@@ -46,7 +47,6 @@ class System:
     def next_period_step(self):
         """
         Update the forces projections in cells
-        :param system:
         """
         self.update_forces()
         element: Cell
