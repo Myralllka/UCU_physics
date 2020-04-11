@@ -1,5 +1,4 @@
 def h(matrix, x, y, z, new_spin):
-    #  TODO: multiply the result of this function by 'J' coefficient
     def _get_val(x1, y1, z1):
         if (0 <= x1 < len(matrix) and
                 0 <= y1 < len(matrix[0]) and

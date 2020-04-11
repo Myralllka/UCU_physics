@@ -1,7 +1,7 @@
 import random
 from config import config
 from monte_carlo import monte_carlo, get_M
-from vizualization import visualization
+from vizualization import *
 
 L = 5
 N = 10

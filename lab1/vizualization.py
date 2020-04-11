@@ -25,5 +25,5 @@ def visualize_matrix(array):
     ax.set_zlabel('Z Label')
     plt.show()
 
-def visualize_M():
-    with open
+#def visualize_M():
+#    with open
